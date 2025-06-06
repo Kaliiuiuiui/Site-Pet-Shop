@@ -1,5 +1,4 @@
-
-/*Tags Gerais!!!*/
+    /*Tags Gerais!!!*/
 
 *{
     margin: 0 auto;
@@ -40,11 +39,27 @@ nav a{
     color: #000;
 }
 
+footer{
+    background-image: url("../img/fundo-topo.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-size: auto;
+}
+
 /* Especificos */
 
 #itemContato{
     background-image: none;
+    padding-right: 0;
+    margin-right: 0;
 }
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
 
 .fundo-verde{
     background-color: #bdff9c;
@@ -59,13 +74,10 @@ nav a{
 .flex-container{
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .flex-container .col{
     width: 430px;
-    
 }
 
 .produto{
@@ -78,6 +90,7 @@ nav a{
     padding: 0;
     height: 160px;
     text-align: center;
+    line-height: 160px;
 }
 
 .produto figure img{
@@ -96,6 +109,15 @@ nav a{
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+#produto .flex-container{
+    margin-top: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 form{
